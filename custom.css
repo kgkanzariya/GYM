@@ -1,0 +1,730 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.header-main-part {
+	background: url("img/background.jpg");
+	width: 100%;
+	height: 650px;
+	background-size: cover;
+}
+.header-navbar-main {
+	background-color: black;
+	opacity: .8;
+}
+.navbar-main {
+	width: 80%;
+	margin: 0 auto;
+	height: 110px;
+}
+.navbar-main .logo {
+	position: absolute;
+	margin: 35px 0;
+}
+.navbar-menu {
+	float: right;
+	margin: 20px 0;
+}
+.navbar-menu ul{
+	color: white;
+	display: flex;
+}
+.navbar-menu-upper li {
+	margin: 0 10px;
+	list-style-type: none;
+	padding: 5px 20px;
+}
+.navbar-menu-upper .dashed {
+	border-left: 2px solid white;
+	padding: 5px 32px;
+}
+.navbar-menu-upper .header-list-icon i {
+	padding: 0 2px;
+}
+.navbar-menu-lower {
+	float: right;
+	margin: 0 20px;
+}
+.navbar-menu-lower li {
+	margin: 20px 11px;
+	list-style-type: none;
+}
+.navbar-menu-upper li a {
+	color: white;
+}
+.navbar-menu-lower li a {
+	color: white;
+	text-decoration: none;
+}
+.navbar-menu-lower li a:hover {
+	color: gray;
+}
+.navbar-menu-lower li i {
+	font-size: 12px;
+}
+.navbar-menu-lower .shoping sup {
+	padding: 1px 4px;
+	font-size: 10px;
+	background-color: #F13A47;
+	margin: 2px;
+	border-radius: 50%;
+}
+.header-content {
+	color: white;
+	background-color: black;
+	opacity: .7;
+	text-align: center;
+	padding: 116.5px 10px;
+	height: 307px;
+}
+.header-content h1 {
+	font-size: 50px;
+	margin: 20px 0;
+}
+.header-content h2 {
+	font-size: 30px;
+	margin: 20px 0 50px;
+}
+.header-content span {
+	color: #f41a17;
+}
+.header-content button {
+	margin: 40px 0;
+	padding: 15px 30px;
+	background-color: #f41a17;
+	color: white;
+	border: none;
+}
+.header-content button:hover {
+	background-color: black;
+	color: white;
+	border: 2px solid #f41a17;
+}
+
+/*get a quote part*/
+.get-a-quote-main {
+	display: flex;
+}
+.get-quote {
+	width: 100%;
+	height: 370px;
+	background-size: cover;
+}
+.free-class {
+	background-image: url("img/gym1.jpg");
+}
+.workout-routine {
+	background-image: url("img/gym2.jpg");
+}
+.personal-training {
+	background-image: url("img/gym3.jpg");
+}
+.get-quote div {
+	background-color: black;
+	color: white;
+	opacity: .8;
+	height: 202px;
+	padding: 84px 50px;
+}
+.get-quote div h3 {
+	color: #DE4247;
+	margin: 20px 0;
+}
+.get-quote div p {
+	margin: 40px 0;
+}
+.get-quote div button {
+	padding: 8px 15px;
+	background-color: #DE4247;
+	border: none;
+	color: white;
+	font-size: 10px;
+}
+.get-quote div button:hover {
+	background-color: black;
+	border: 2px solid #DE4247;
+}
+/*about-us part*/
+.about-us {
+	background-image: url("img/running.jpg");
+	width: 100%;
+	height: 450px;
+	background-size: cover;
+}
+.about-content {
+	width: 50%;
+	background-color: #DE4247;
+	opacity: .9;
+	color: white;
+	height: 450px;
+}
+.about-content h2 {
+	padding: 80px 70px 20px;
+}
+.about-content p {
+	margin: 20px 70px;
+}
+.about-content button {
+	margin: 40px 70px;
+	padding: 8px 20px;
+	font-size: 11px;
+	color: #ff0000;
+}
+.about-content button:hover {
+	background-color: #DE4247;
+	border: 2px solid white;
+	color: white;
+}
+/*YOGA ROMM PART*/
+.yoga-room-img {
+	background-image: url("img/image1.jpg");
+	height: 320px;
+	background-size: cover;	
+}
+.yoga-room {
+	background-color: black;
+	opacity: .7;
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	height: 320px;
+}
+.yoga-room div {
+	width: 17%;
+	margin-top: 50px;
+}
+.yoga-room div i {
+	font-size: 2.3rem;
+	margin: 20px 0;
+}
+.yoga-room div h4 {
+	margin: 25px 0;
+}
+
+/*our class part*/
+.our-class-main {
+	padding: 40px 0;
+}
+.our-class-main h2 {
+	text-align: center;
+	margin: 10px 0;
+}
+.our-class-main .para1 {
+	text-align: center;
+	margin: 20px 0;
+	color: #222121d9;
+}
+.classes-img {
+	width: 80%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+}
+.classes-img-cards {
+	margin: 0 15px;
+}
+.image {
+	position: relative;
+}
+.image img {
+	width: 100%;
+}
+.image .rate{
+	position: absolute;
+	bottom: 20px;	
+	right: 0;
+	background-color: #F13A47;
+	padding: 10px 20px;
+	color: white;
+}
+.classes-img div h3 {
+	margin: 10px 0;
+}
+.classes-img div p {
+	margin: 20px 0;
+	color: #222121d9;
+}
+.classes-img div a {
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+	font-size: 14px;
+}
+.classes-img div a:hover {
+	color: #222121d9;
+	font-weight: normal;
+} 
+.slider {
+	text-align: center;
+	margin: 70px 0 40px;
+}
+.slider i {
+	padding: 4px 7px;
+	border: 2px solid;
+}
+.slider i:hover {
+	background-color: black;
+	color: white;
+}
+.service {
+	background-image: url("img/services.jpg");
+	width: 100%;
+	height: 550px;
+	background-size: cover;
+}
+.service-content {
+	width: 50%;
+	background-color: #DE4247;
+	opacity: .8;
+	color: white;
+	height: 400px;
+	float: right;
+	padding: 75px 0;
+}
+.service-content h2 {
+	margin-left: 80px;
+}
+.service-content div {
+	margin: 30px 0 30px 80px;
+}
+.service-content div ul {
+	display: flex;
+}
+.service-content div ul li {
+	list-style-type: none;
+}
+.list-1 {
+	margin-left: 0;
+	font-size: 25px;
+}
+.list-2 {
+	margin: 0 15px;
+}
+.list-2 p {
+	font-size: 14px;
+	margin: 15px 0;
+}
+
+/* working hours part */
+.working-img {
+	background-image: url("img/working.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+}
+.working-hours {
+	height: 300px;
+	background-color: black;
+	opacity: .6;
+	display: flex;
+	justify-content: center;
+}
+.working-hours div {
+	color: white;
+	text-align: center;
+	width: 20%;
+	margin-top: 90px;
+}
+.working-hours i {
+	font-size: 2.3rem;
+	margin: 5px 0;
+}
+.working-hours h1 {
+	font-size: 2.7rem;
+	margin: 10px 0;
+}
+/*trainer part*/
+.trainer-main {
+	padding: 50px 0;
+}
+.trainer-main h2 {
+	text-align: center;
+	margin: 15px 0;
+}
+.trainer-main p {
+	text-align: center;
+	margin: 20px 0;
+	color: #222121d9;	
+}
+.trainer-img {
+	width: 80%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+}
+.trainer-img .trainers {
+	position: relative;
+/*	padding: 0 20px;*/
+	margin: 0 20px;
+}
+.trainer-img .rate {
+	position: absolute;
+	bottom: 20px;
+	right: 0;
+	background-color: #F13A47;
+	padding: 8px 15px;
+	color: white;
+	font-size: 13px;
+}
+.trainer-img img {
+	width: 100%;
+}
+
+/*fitness class part*/
+.fitness-class-img {
+	background-image: url("img/fitness-class.jpg");
+	width: 100%;
+	height: 400px;
+	background-size: cover;
+}
+.fitness-class {
+	height: 400px;
+	background-color: black;
+	opacity: .7;
+	color: white;
+}
+.fitness-class div {
+	width: 50%;
+	padding: 50px 7%;
+}
+.fitness-class h2 {
+	color: #ff0c0c;
+	font-size: 1.7rem;
+	margin: 25px 0;
+}
+.fitness-class h3 span {
+	color: #ff0c0c;
+}
+.fitness-class h3 {
+	margin: 30px 0
+}
+.fitness-class p {
+	padding-right: 50px;
+	margin: 30px 0;
+}
+.fitness-class button {
+	padding: 8px 20px;
+	background-color: #ff0c0c;
+	border: none;
+	color: white;
+}
+.fitness-class button:hover {
+	background-color: black;
+	border: 2px solid #ff0c0c;
+}
+/*contact us part*/
+.contact-us-main {
+	background-color: #E73E45;
+}
+.contact-us {
+	width: 80%;
+	margin: 0 auto;
+	color: white;
+	display: flex;
+	padding: 50px 0;
+
+}
+.contact-us div {
+	width: 50%;
+}
+.contact-us h3 {
+	font-size: 1.3rem;
+	margin: 12px 0;
+}
+.contact-us .btn {
+	text-align: center;
+}
+.contact-us button {
+	padding: 7px 20px;
+	color: #E73E45;
+	font-weight: bolder;
+	margin-top: 20px;
+	border: none;
+}
+.contact-us button:hover {
+	background-color:#E73E45;
+	color: white;
+	border: 2px solid white;
+}
+/*our-gallary part*/
+.our-gallary {
+	margin-top: 70px;
+}
+.our-gallary h2 {
+	text-align: center;
+}
+.our-gallary p {
+	text-align: center;
+	color: #222121d9;
+	margin: 20px 0 40px;
+}
+.our-gallary .img-gallary {
+	display: flex;
+	justify-content: center;
+}
+.img-gallary img {
+	width: 100%;
+}
+/*popular-product PART*/	
+.popular-product {
+	background-color: #F9F9F9;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+.popular-product h2 {
+	text-align: center;
+	margin: 15px 0;
+}
+.popular-product .para1	{
+	text-align: center;
+	color: #222121d9;
+	margin: 20px 0;
+}
+.products {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	margin: 0 auto;
+}
+.products .power {
+	margin: 0 15px;
+}
+.product-img {
+	position: relative;
+}
+.product-img .hot {
+	position: absolute;
+	top:20px;
+	right: 0;
+	background-color: #F13A47;
+	padding: 5px 10px 5px 13px;
+	color: white;
+}
+.power img {
+	width: 100%;
+}
+.products-details h4 {
+	margin: 20px 0;
+}
+.power ul {
+	display: flex;
+	margin: 20px 0 30px;
+}
+.power ul li {
+	list-style-type: none;
+}
+.power ul span {
+	text-decoration: line-through;
+	font-size: 13px;
+}
+.power .float {
+	margin-left: 130px;
+}
+.power .para2 {
+	padding: 10px 10px;
+	background-color: #ff2e2e;
+	color: white;
+	text-decoration: none;
+}
+.power .para2 span {
+	margin-left: 165px;
+}
+/*event part*/
+.coming-event {
+	position: absolute;
+	top:15px;
+	right: 0;
+	background-color: #F13A47;
+	color: white;
+	padding: 5px 10px;
+	font-size: 13px;
+}
+.coming-event ul {
+	display:flex ;
+}
+.coming-event ul li {
+	list-style-type: none;
+	margin: 0 5px;
+}
+.all-event {
+	text-align: center;
+	margin: 40px 0;
+}
+.all-event button {
+	padding: 7px 25px;
+	background-color: #E84246;
+	color: white;
+	border: 2px solid white;
+	font-weight: bolder;
+}
+.all-event button:hover {
+	background-color: white;
+	color: #E84246;
+	border: 2px solid #E84246;
+}
+/*TESTIMONIALS part*/
+.TESTIMONIALS-img {
+	background-image: url("img/TESTIMONIALS.jpg");
+	width: 100%;
+	height: 400px;
+	background-size: cover;
+}
+.TESTIMONIALS-main {
+	background-color: black;
+	height: 400px;
+	opacity: .7;
+	color: white;
+}
+.TESTIMONIALS-main h2 {
+	text-align: center;
+	padding-top: 100px;
+}
+.TESTIMONIALS-main .para1 {
+	text-align: center;
+	margin: 20px 0 30px;
+}
+.TESTIMONIALS {
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	margin: 0 auto;
+}
+.TESTIMONIALS .img-content {
+	display: flex;
+	margin: 0 10px;
+}
+.img-content img {
+	width: 100px;
+	margin-top: 15px;
+}
+.img-content-right {
+	margin-left: 20px;
+}
+.img-content .space {
+	margin: 10px 0;
+}
+.img-content .pink-color {
+	color: #E84246;
+}
+/*google map*/
+.map iframe {
+	position: absolute;
+	z-index: -1;
+}
+.form {
+	background-color: #E73E45;	
+	width: 50%;
+	opacity: .8;
+	height: 550px;
+}
+.form h2 {
+	margin: 0 100px;
+	color: white;
+	padding: 70px 0 50px;
+}
+.form input, .form textarea {
+	margin: 0 100px;
+	color: white;
+	background-color:#E73E45 ;
+	border: 2px solid white;
+	padding: 10px 20px;
+	width: 60%;
+}
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+.form button {
+	margin: 0 100px;
+	padding: 10px 20px;
+	color: #E73E45;
+}
+.form button:hover {
+	background-color: #E73E45;
+	border: 2px solid white;
+	color: white;
+	border-radius: 3px;
+} 
+/*footer img part*/
+.footer-img-main {
+	background-image: url('img/footer-img.jpg');
+	width: 100%;
+	height: 420px;
+	background-size: cover;
+}
+.footer-img-bg {
+	background-color: black;
+	opacity: .8;
+	color: white;
+	height: 420px;
+}
+.footer-img {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+}
+.footer-img div {
+	width: 25%;
+	margin: 100px 20px 0 0;
+}
+.fitd p {
+	margin: 20px 0;
+	padding: 0 10px;
+}
+.footer-img h3 {
+	margin-bottom: 40px;
+}
+.quick-link ul {
+/*	margin-top: 40px;*/
+}
+.quick-link li {
+	list-style-type: none;
+	margin: 10px 0;
+}
+.latest-twit p {
+	margin: 10px 0;
+}
+.latest-twit span {
+	color: #E73E45;
+}
+.address p {
+	margin: 10px 0;
+}
+.address p i {
+	margin-right: 10px;
+}
+.subcribe {
+	margin: 40px 0;
+}
+.telegram {
+	position: relative;
+	width: 100%;
+}
+.telegram input {
+	padding: 10px 20px;
+	background-color: #323030;
+	border: none;
+	color: white;
+	cursor: pointer;
+	width: 80%;
+}
+.telegram button {
+	position: absolute;
+	top: 8px;
+	right: 15px;
+	border: none;
+	background-color: #323030;
+}
+.telegram button i {
+	font-size: 20px;
+}
+/*footer part*/
+.footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.footer p {
+	padding: 40px 0;
+}
